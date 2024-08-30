@@ -22,7 +22,7 @@ export async function fetchTextStream(query: string) {
 	let url = "";
 
 	payload = {
-		model: "Intel/neural-chat-7b-v3-3",
+		model: "meta-llama/Meta-Llama-3-8B-Instruct",
 		messages: query,
 	};
 	url = `${CHAT_BASE_URL}`;
