@@ -23,4 +23,5 @@ RUN npm run build
 EXPOSE 5173
 
 # Run the front-end application in preview mode
-CMD ["npm", "run", "preview", "--", "--port", "5173", "--host", "0.0.0.0"]
+#CMD ["npm", "run", "preview", "--", "--port", "5173", "--host", "0.0.0.0"]
+CMD ["npm", "run", "dev", "--", "--port", "5173", "--host", "0.0.0.0"]
